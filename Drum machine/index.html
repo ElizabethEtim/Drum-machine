@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum machine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="drum-machine">
+        <div class="pad pad1" onclick="playSound('kick')">Kick</div>
+        <div class="pad pad2" onclick="playSound('snare')">Snare</div>
+        <div class="pad pad3" onclick="playSound('hihat')">Hi-hat</div>
+        <div class="pad pad4" onclick="playSound('clap')">Clap</div>
+    </div>
+
+    <audio id="kick" src="assets\kick.mp3"></audio>
+    <audio id="snare" src="assets\snare.mp3"></audio>
+    <audio id="hihat" src="assets\hithat.mp3"></audio>
+    <audio id="clap" src="assets\clap.wav"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
